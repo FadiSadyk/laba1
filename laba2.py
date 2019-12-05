@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from control import *
 from numpy import *
 
-num_oc = [13.88154997, 0]
+num_oc = [0.1, 0]
 den_oc = [3.0, 1.]
 num_gen = [1.]
 den_gen = [6.0, 1.]
@@ -142,4 +142,3 @@ def gurvic(p):
     print(determinant)
 
 #k_oc = 13.88154997
-gurvic(W_z)
